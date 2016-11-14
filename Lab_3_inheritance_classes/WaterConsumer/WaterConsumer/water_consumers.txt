@@ -1,0 +1,10 @@
+COUNTED_PAYER id="12345" name="Ivanov" address="Sumskaya,1"
+STANDARD_PAYER id="23456" name="Petrov" address="Pushkinskaya,1" users="3"
+SUBSIDIZED_PAYER id="34567" name="Sidorov" address="Lenina,1"
+
+USE_WATER payer="12345" amount="5"
+USE_WATER payer="23456" amount="5"
+USE_WATER payer="34567" amount="5"
+SHOW_DEBT payer="12345" price="2.448"
+SHOW_DEBT payer="23456" price="2.448"
+SHOW_DEBT payer="34567" price="2.448"

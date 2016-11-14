@@ -1,0 +1,25 @@
+﻿  TrainScheduleItem.cpp
+  Train.cpp
+  test.cpp
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(78): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(136): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(144): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(148): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(173): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(174): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(176): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(178): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(197): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(198): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(200): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(202): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(222): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(225): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\test.cpp(228): warning C4018: <: несоответствие типов со знаком и без знака
+  station.cpp
+  Route.cpp
+d:\oop\lab_2_composition_of_objects\trainschedule\trainschedule\route.cpp(25): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  TrainSchedule.vcxproj -> D:\OOP\Lab_2_composition_of_objects\TrainSchedule\Debug\TrainSchedule.exe
+  TrainSchedule.vcxproj -> D:\OOP\Lab_2_composition_of_objects\TrainSchedule\Debug\TrainSchedule.pdb (Full PDB)

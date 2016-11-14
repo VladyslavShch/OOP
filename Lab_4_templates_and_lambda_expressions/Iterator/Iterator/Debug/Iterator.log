@@ -1,0 +1,12 @@
+﻿  test.cpp
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4521: Queue<int>: заданы несколько конструкторов копии
+  d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\test.cpp(26): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Queue<int>"
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4522: Queue<int>: заданы несколько операторов присваивания
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4521: Queue<std::string>: заданы несколько конструкторов копии
+  d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\test.cpp(46): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Queue<std::string>"
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4522: Queue<std::string>: заданы несколько операторов присваивания
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4521: Queue<Date>: заданы несколько конструкторов копии
+  d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\test.cpp(58): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Queue<Date>"
+d:\oop\lab_4_templates_and_lambda_expressions\iterator\iterator\integer_queue_circular_array_impl.hpp(139): warning C4522: Queue<Date>: заданы несколько операторов присваивания
+  Iterator.vcxproj -> D:\OOP\Lab_4_templates_and_lambda_expressions\Iterator\Debug\Iterator.exe
+  Iterator.vcxproj -> D:\OOP\Lab_4_templates_and_lambda_expressions\Iterator\Debug\Iterator.pdb (Full PDB)

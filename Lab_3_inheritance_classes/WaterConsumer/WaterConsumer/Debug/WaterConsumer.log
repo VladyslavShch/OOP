@@ -1,0 +1,25 @@
+﻿  waterconsumer.cpp
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\waterconsumer.hpp(43): warning C4521: WaterConsumer: заданы несколько конструкторов копии
+  test.cpp
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\waterconsumer.hpp(43): warning C4521: WaterConsumer: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\countingwaterconsumer.hpp(27): warning C4521: CountingWC: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\standartwaterconsumer.hpp(28): warning C4521: StandartWC: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\subsidizedwaterconsumer.hpp(25): warning C4521: SubsidizedWC: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(115): warning C4101: price: неиспользованная локальная переменная
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(115): warning C4101: water: неиспользованная локальная переменная
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(115): warning C4101: id: неиспользованная локальная переменная
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(115): warning C4101: users: неиспользованная локальная переменная
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(134): warning C4018: <: несоответствие типов со знаком и без знака
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\test.cpp(165): warning C4018: <: несоответствие типов со знаком и без знака
+  subsidizedwaterconsumer.cpp
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\waterconsumer.hpp(43): warning C4521: WaterConsumer: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\subsidizedwaterconsumer.hpp(25): warning C4521: SubsidizedWC: заданы несколько конструкторов копии
+  standartwaterconsumer.cpp
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\waterconsumer.hpp(43): warning C4521: WaterConsumer: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\standartwaterconsumer.hpp(28): warning C4521: StandartWC: заданы несколько конструкторов копии
+  countingwaterconsumer.cpp
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\waterconsumer.hpp(43): warning C4521: WaterConsumer: заданы несколько конструкторов копии
+d:\oop\lab_3_inheritance_classes\waterconsumer\waterconsumer\countingwaterconsumer.hpp(27): warning C4521: CountingWC: заданы несколько конструкторов копии
+  Создание кода...
+  WaterConsumer.vcxproj -> D:\OOP\Lab_3_inheritance_classes\WaterConsumer\Debug\WaterConsumer.exe
+  WaterConsumer.vcxproj -> D:\OOP\Lab_3_inheritance_classes\WaterConsumer\Debug\WaterConsumer.pdb (Full PDB)
