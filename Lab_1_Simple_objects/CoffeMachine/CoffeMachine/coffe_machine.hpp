@@ -1,9 +1,10 @@
-// Страж включения
+//include guard
 #ifndef _COFFE_MACHINE_HPP_
 #define _COFFE_MACHINE_HPP_
 
 #include <iostream>
 
+//Types of coffe, which we can make
 enum
 {
 	Espresso,
@@ -15,7 +16,6 @@ enum
 };
 
 
-// Структура для последовательности
 class CoffeMachine
 {
 	enum
@@ -27,11 +27,14 @@ class CoffeMachine
 		Current_water,
 		Current_rubbish,
 	};
+
+	//array, that keep info about Coffe Machine and its state
 	int m_Machine[6];
 
 public:	
 
-    CoffeMachine ( int _max_coffe, int _max_water, int _max_portion );
+    //Constructor
+	CoffeMachine ( int _max_coffe, int _max_water, int _max_portion );
 
 	int SeedsInfo () const;
 
@@ -55,7 +58,6 @@ public:
 
 	bool NumberOfPortion( int _type, int _power, int _double );
 
-	/*~CoffeMachine ();*/
 };
 
 inline int CoffeMachine::SeedsInfo () const

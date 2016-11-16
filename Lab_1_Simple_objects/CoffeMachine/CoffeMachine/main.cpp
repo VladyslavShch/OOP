@@ -19,7 +19,9 @@ int main()
 
 		cm.MakeDoubleCoffe(Espresso, Strong );
 
-	//cm.CleanMachine();
+	std::cout << cm;
+
+	cm.CleanMachine();
 
 	std::cout << cm;
 

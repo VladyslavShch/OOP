@@ -1,9 +1,9 @@
 ﻿  main.cpp
   coffe_machine.cpp
   Создание кода...
-d:\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(248): warning C4715: CoffeMachine::NumberOfPortion: значение возвращается не при всех путях выполнения
-d:\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(111): warning C4715: CoffeMachine::MakeCoffe: значение возвращается не при всех путях выполнения
-d:\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(298): warning C4715: CoffeMachine::NumberOfPortion: значение возвращается не при всех путях выполнения
-d:\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(185): warning C4715: CoffeMachine::MakeDoubleCoffe: значение возвращается не при всех путях выполнения
-  CoffeMachine.vcxproj -> D:\OOP\Lab_1_Simple_objects\CoffeMachine\Debug\CoffeMachine.exe
-  CoffeMachine.vcxproj -> D:\OOP\Lab_1_Simple_objects\CoffeMachine\Debug\CoffeMachine.pdb (Full PDB)
+d:\branch\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(302): warning C4715: CoffeMachine::NumberOfPortion: значение возвращается не при всех путях выполнения
+d:\branch\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(252): warning C4715: CoffeMachine::NumberOfPortion: значение возвращается не при всех путях выполнения
+d:\branch\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(112): warning C4715: CoffeMachine::MakeCoffe: значение возвращается не при всех путях выполнения
+d:\branch\oop\lab_1_simple_objects\coffemachine\coffemachine\coffe_machine.cpp(186): warning C4715: CoffeMachine::MakeDoubleCoffe: значение возвращается не при всех путях выполнения
+  CoffeMachine.vcxproj -> D:\branch\OOP\Lab_1_Simple_objects\CoffeMachine\Debug\CoffeMachine.exe
+  CoffeMachine.vcxproj -> D:\branch\OOP\Lab_1_Simple_objects\CoffeMachine\Debug\CoffeMachine.pdb (Full PDB)

@@ -1,6 +1,8 @@
 #include "coffe_machine.hpp"
 #include <cassert>
 
+//Out of information about state of our Coffe Machine
+//in next format: count of seeds, count of water, count of portions
 std::ostream & operator << ( std::ostream& _o, const CoffeMachine & _cm)
 {
 	_o << _cm.SeedsInfo() << ' ' << _cm.WaterInfo() << ' ' << _cm.PortionsInfo() << std::endl;
@@ -17,13 +19,9 @@ CoffeMachine::CoffeMachine ( int _max_coffe, int _max_water, int _max_portion )
 	m_Machine[Current_water] = 0;
 }
 
-//CoffeMachine::~CoffeMachine()
-//{
-//	delete[] m_Machine;
-//}
-
 int CoffeMachine::FillSeeds()
 {
+	//We return a count of seeds which put into Coffe Machine
 	int temp = m_Machine[Max_seeds] - m_Machine[Current_seeds];
 	m_Machine[Current_seeds] = m_Machine[Max_seeds];
 	return temp;
@@ -31,6 +29,7 @@ int CoffeMachine::FillSeeds()
 
 int CoffeMachine::FillWater()
 {
+	//We return a count of water which put into Coffe Machine
 	int temp = m_Machine[Max_water] - m_Machine[Current_water];
 	m_Machine[Current_water] = m_Machine[Max_water];
 	return temp;
@@ -40,10 +39,12 @@ bool CoffeMachine::MakeCoffe( int _type, int _power )
 {
 	assert ( _type == Espresso || _type == Americano);
 	assert ( _power >= Light && _power <= Strong );
+	//condition when we can't make coffe
 	if ( m_Machine[Current_rubbish] == m_Machine[Max_portion] || m_Machine[Current_seeds] == 0 || m_Machine[Current_water] == 0 )
 		return false;
 	else if ( _type == Espresso && _power == Light )
 	{
+		//condition when we can't make Light Espresso
 		if ( m_Machine[Current_rubbish] == m_Machine[Max_portion] || m_Machine[Current_seeds] < 4 || m_Machine[Current_water] < 120 ) return false;
 		else
 		{
@@ -186,11 +187,13 @@ bool CoffeMachine::MakeDoubleCoffe( int _type, int _power )
 
 void CoffeMachine::CleanMachine()
 {
+	//500 ml of water - full clean
 	if ( m_Machine[Current_water] >= 500 )
 	{
 		m_Machine[Current_rubbish] = 0;
 		m_Machine[Current_water] = m_Machine[Current_water] - 500;
 	}
+	//if water is less then 500 ml, we will clean machine not fully
 	else 
 	{
 		m_Machine[Current_rubbish] = m_Machine[Current_rubbish] - m_Machine[Current_rubbish] * m_Machine[Current_water] / 500;
@@ -198,6 +201,7 @@ void CoffeMachine::CleanMachine()
 	}
 }
 
+//Function, which is show, that we can make on eportion of choosen coffe
 bool CoffeMachine::NumberOfPortion( int _type, int _power )
 {
 	if ( m_Machine[Current_rubbish] == m_Machine[Max_portion] || m_Machine[Current_seeds] == 0 || m_Machine[Current_water] == 0 )
